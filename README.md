@@ -3,6 +3,10 @@
 
 Add poll card to teams, so team members to vote
 
+## Video
+
+Check [https://youtu.be/JyTazPdwSSc](https://youtu.be/JyTazPdwSSc)
+
 ## DEV Prerequisites
 
 - Download and install RingCentral app and login: https://www.ringcentral.com/apps/rc-app
