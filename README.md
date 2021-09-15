@@ -1,11 +1,9 @@
 
 # Poll add-in for RingCentral App [experimental]
 
-Add poll card to teams, so team members to vote
+A POC of Poll add-in using adaptive card and interactive messages of RingCentral app.
 
-## Video
-
-Check [https://youtu.be/JyTazPdwSSc](https://youtu.be/JyTazPdwSSc)
+Check video here: [https://youtu.be/JyTazPdwSSc](https://youtu.be/JyTazPdwSSc)
 
 ## DEV Prerequisites
 
