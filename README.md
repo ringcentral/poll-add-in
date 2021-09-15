@@ -3,6 +3,8 @@
 
 A POC of Poll add-in using adaptive card and interactive messages of RingCentral app.
 
+![ ](screenshots/poll-add-in-ss-min.png)
+
 Check video here: [https://youtu.be/JyTazPdwSSc](https://youtu.be/JyTazPdwSSc)
 
 ## DEV Prerequisites
