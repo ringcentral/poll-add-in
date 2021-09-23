@@ -3,7 +3,7 @@ service:
 provider:
   stage: ${opt:stage, 'prod'}
   name: aws
-  runtime: nodejs8.10
+  runtime: nodejs12.x
   region: us-east-1
   memorySize: 256
   environment: ${file(./env.yml)}
@@ -14,14 +14,14 @@ provider:
   #     Action:
   #       - lambda:InvokeFunction
   #     Resource: "*"
-deploymentBucket:
-  tags:
-    department: dev
-    Owner: Your name
-    Stage: production
-    Environment: your-env-tag
-    Team: your-team
-    Name: engage-digital-source-glip
+  deploymentBucket:
+    tags:
+      department: dev
+      Owner: Your name
+      Stage: production
+      Environment: your-env-tag
+      Team: your-team
+      Name: engage-digital-source-glip
 package:
   include:
     - '*.json'
