@@ -18,11 +18,8 @@
     "view": "node build/view.js",
     "clean": "node build/clean.js",
     "build-lambda": "npm run clean && node cmds/build && npm run view",
-    "deploy-lambda": "node cmds/deploy",
     "watch": "cd deploy && ../node_modules/.bin/sls logs -f app -t",
-    "lint": "./node_modules/.bin/standard",
-    "update": "node -r dotenv/config cmds/update",
-    "dynamo": "node -r @babel/register -r dotenv/config build/dynamo-local"
+    "lint": "./node_modules/.bin/standard"
   },
   "devDependencies": {
     "@ant-design/icons": "^4.4.0",
@@ -65,9 +62,7 @@
     "url-loader": "3.0.0",
     "webpack": "4.41.6",
     "webpack-cli": "3.3.11",
-    "webpack-dev-server": "3.10.3",
-    "webpack-obfuscator": "^0.28.1",
-    "yarn-upgrade-all": "^0.5.4"
+    "webpack-dev-server": "3.10.3"
   },
   "dependencies": {
     "dynamo-sequelize": "^0.8.1",
